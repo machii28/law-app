@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "json-query": "^2.2.2",
     "object-pager": "^1.0.0",
     "text-to-speech-js": "^1.1.9",
     "vue": "^2.6.11",
@@ -28,7 +29,7 @@
     "tailwindcss": "^1.2.0",
     "vue-template-compiler": "^2.6.11"
   },
-  "eslintConfig": {
+  "eslintConfig": { 
     "root": true,
     "env": {
       "node": true

@@ -5,4 +5,7 @@ export default {
       this.$router.push('/list');
     }
   },
+  mounted() {
+    localStorage.removeItem('currentpage');
+  },
 }

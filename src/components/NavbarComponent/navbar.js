@@ -9,5 +9,10 @@ export default {
       default: 'Philippine Laws, Statutes & Codes'
     }
   },
-  name: 'NavbarComponent'
+  name: 'NavbarComponent',
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    }
+  }
 }

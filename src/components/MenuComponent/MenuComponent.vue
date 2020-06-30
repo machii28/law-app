@@ -7,8 +7,8 @@
       <small class="text-xl">
         Year 1946 - 2020
       </small>
-      <router-link :to="'list'" class="block mx-auto my-10 px-20 py-1 bg-blue text-white cursor-pointer sm:px-10">
-        Start
+      <router-link :to="'list'" id="start" class="block mx-auto my-10 px-20 py-1 bg-blue text-white cursor-pointer sm:px-10">
+        Enter
       </router-link>
     </div>
   </div>

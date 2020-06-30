@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: 'law-mobile-app'
+  /* filenameHashing: false */
 }
